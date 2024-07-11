@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>오랜만에 놀아보는군</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2009-12-03 06:17:41</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">오랜만에 놀아보는군</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><img src='./2185605/f0085862_4b16d9108791a.jpg'><div><div style="text-align: center;">흠... 반갑구만, 고양이 낚시.&nbsp;</div><div style="text-align: center;"><br></div><img src='./2185605/f0085862_4b16d918efe2f.jpg'></div><div><div style="text-align: center;">응? 근데 이 시간에 웬일인가.</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div>한동안 먹고 사는 일로 제법 바쁘게 지냈다. 간장 화장실도 제때 청소해주지 못해 줄곧 찜찜했는데, 모처럼 집안 구석구석 쓸고 닦은 뒤 간장과 놀아주었다. 차고 넘치지 않아도 좋으니 간장 캣타워 일시불로 사줄 정도만 벌고 살았으면 좋겠다.</div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>

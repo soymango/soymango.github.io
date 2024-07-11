@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>대인배 간장</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2009-12-03 05:38:47</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">대인배 간장</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><div style="text-align: center;"><img src='./2185571/f0085862_4b16d04d99fd0.jpg'></div><br>간장과 함께 살면서 조금 불편한 점은, 컴퓨터 앞에 앉아있는 꼴을 못 본다는 것. 귀염 지존 무릎냥이 되어 얌전히 단잠을 청할 때도 있지만, 대부분은 키보드를 점령한 채 마우스 포인터 낚아채기 놀이에 열중한다. 간단한 웹서핑을 할 땐 별문제 될 게 없지만, 영상을 보거나 문서 작업을 할 때 특히 결제를 하는 와중에 키보드를 점령당하면 큰일이기 때문에 대개 이 지점에서 간장과 다툼이 시작된다. 어깨너머 침대로 살포시 던져 취침을 권하는 나와 다시 모니터를 향해 냅다 달겨드는 간장 사이에 하소연과 위협, 필살 깨물기가 뒤엉키는 맞대결이 펼쳐지는 것이다<br><br>이렇게 한바탕 다투고 나면 서로 공평하게 감정이 상해야 마땅하건만, 이놈의 고양이는 이깟 소동쯤 아무렇지 않다는 듯 꼴사나운 포즈로 몸 구석구석을 할짝댄 뒤 베개 맡에 자릴 잡고 태연히 잠을 청한다. 결국, 다툼 뒤 감정의 앙금은 고스란히 인간 몫으로 남아, 멍하니 허공을 응시하며 패배를 곱씹을 수밖에 없는 것이다.<p></p></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>
