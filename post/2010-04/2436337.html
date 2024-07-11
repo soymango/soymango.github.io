@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>Stairway to Heaven</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-04-12 21:42:46</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">Stairway to Heaven</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><div><div style="text-align: center;"></div><img src='./2436337/f0085862_4bc3152a4228e.jpg'></div><div><div style="text-align: center;">지붕뚫고 천당갈 기세.</div><img src='./2436337/f0085862_4bc3152ad76c8.jpg'></div><div><div style="text-align: center;">미사보 쓰고 회개하는 간장.</div><div style="text-align: center;"><img src='./2436337/f0085862_4bc31529991bf.jpg'></div><div style="text-align: center;">추억의 서주우유(냉장고).<br><img src='./2436337/f0085862_4bc31528dcd6f.jpg'><div></div></div><div style="text-align: center;">(대략) 30년 전통의 광화문 꼬치집.</div><div style="text-align: center;"><br></div><div style="text-align: center;"><a href="http://chamssae.egloos.com" target="_blank">참새</a>랑 참새구이 시켰다가 기겁을 했더니</div><div style="text-align: center;">아주머니가 머리를 가위로 톡~ 잘라주어</div><div style="text-align: center;">마침내 자지러졌던 그 집.</div><div style="text-align: center;"><br></div><div><br></div><div><br></div><div><br></div></div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>

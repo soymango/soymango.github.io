@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>야구장 나들이</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-04-26 01:43:42</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">야구장 나들이</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><img src='./2451392/f0085862_4bd474cd53c53.jpg'>오랜만에 따스했던 일요일 오후, 야구장을 찾았다. 출입구를 지나 계단을 오르자마자 시야를 강습하는 새파란 잔디밭이 아찔하게 청량했고, 쨍한 봄볕 아래 느긋하게 홀짝이는 맥주의 달콤함은 열띤 관중의 함성과 어우러져 나른하게 달아올랐다. 온갖 걸 그룹의 댄스를 섭렵한 예쁜이 치어리더 언니들은 너무 멀리 있어 그 모습이 어렴풋했지만 가까이에서 쑥스러워하며 흘깃거리는 것보다는 적당히 거리가 있는 편이 낫다고 위안하며, 낮술을 동반한 주말 오후 나들이의 한가로움을 만끽했다.<div><br></div><div>이 날 트윈스의 용병 투수 곤잘레스는 오랜 부진을 털고 6이닝동안 무실점으로 호투했고, 부활한 조인성은 7회 말 득점의 물꼬를 텄으며, 노회한 마무리 오카모토는 방어율 제로의 행진을 이어갔다.&nbsp;</div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>
