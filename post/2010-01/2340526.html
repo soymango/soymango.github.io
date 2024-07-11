@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>잔상</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-01-28 23:37:26</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">잔상</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><embed src="http://vimeo.com/moogaloop.swf?clip_id=8719941&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="600" height="338"><p><a href="http://vimeo.com/8719941"><span class="Apple-style-span" style="font-size: 11px;">정민아 - 잔상</span></a><span class="Apple-style-span" style="font-size: 11px;"> from </span><a href="http://vimeo.com/recandplay"><span class="Apple-style-span" style="font-size: 11px;">recandplay.net</span></a><span class="Apple-style-span" style="font-size: 11px;"> on </span><a href="http://vimeo.com"><span class="Apple-style-span" style="font-size: 11px;">Vimeo</span></a><span class="Apple-style-span" style="font-size: x-small;">.</span><br><br></p><p><a href="http://recandplay.net" target="_blank">렉앤플레이</a>.&nbsp;오늘 처음 알게 됐는데, <a href="http://recandplay.net/notice" target="_blank">착한 분들이 운영하는</a>,&nbsp;근사한 음악을 볼 수 있는 곳이다.</p></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>
