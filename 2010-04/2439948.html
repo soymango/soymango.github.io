@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>올블랙은 실루엣</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-04-16 01:57:44</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">올블랙은 실루엣</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><img src='./2439948/f0085862_4bc7452a6231f.jpg'><div><div style="text-align: center;">창문 턱과 창틀이 캣타워와 연결돼 있어서 간장이 다니기 좋은 구조.</div><div style="text-align: center;"><br></div><img src='./2439948/f0085862_4bc74533a051f.jpg'></div><div><div style="text-align: center;">사뿐 사뿐~</div><div style="text-align: center;"><br></div><img src='./2439948/f0085862_4bc7453bc3399.jpg'></div><div style="text-align: center;">(샥~) &nbsp;간장 없~다!</div><div style="text-align: center;"><br></div><div style="text-align: center;">.......</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><img src='./2439948/f0085862_4bc745d96e593.jpg'><div style="text-align: center;">싱거운 고양이가 되어버렸군.</div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>
