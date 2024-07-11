@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>넘사벽 2</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-08-12 06:43:01</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">넘사벽 2</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><img src='./2564640/f0085862_4c6318a612077.jpg'><div><div style="text-align: center;">망고가 벽에서 눈을 떼지 못하는 이유</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div></div><div><img src='./2564640/f0085862_4c631b8b043d5.jpg'><div style="text-align: center;">짜잔~</div><div style="text-align: center;"><br></div><div style="text-align: center;"><font class="Apple-style-span" color="#999999">(배... 배트캣..)</font></div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div></div><div><img src='./2564640/f0085862_4c631b956149f.jpg'><div style="text-align: center;">나야, 나.</div><div style="text-align: center;"><br></div><div style="text-align: center;"><font class="Apple-style-span" color="#999999"><br></font></div></div><div><img src='./2564640/f0085862_4c631ba252cbf.jpg'><div style="text-align: center;">형님, 저도 올라가고 싶습니다요.</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div></div><div><img src='./2564640/f0085862_4c631bad955f7.jpg'><div style="text-align: center;">네? 네?</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><img src='./2564640/f0085862_4c6318e9473da.jpg'></div><div style="text-align: center;">흠... 시간이 해결해줄 것이야.</div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>
