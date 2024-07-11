@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>뛰는 망고 나는 간장</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-07-23 22:15:27</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">뛰는 망고 나는 간장</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><img src='./2545702/f0085862_4c49943be8bb7.jpg'><div style="text-align: center;"><br></div><div style="text-align: center;">망고가 책상 무간식 등정<font class="Apple-style-span" color="#999999">(간식 냄새의 유혹없이 등정하는 일)</font>에 성공했다.</div><div style="text-align: center;"><br></div><div style="text-align: center;">생후 2개월 반만에 거둔 쾌거이건만, 냉정한 세르파 간장 선생은</div><div style="text-align: center;">책상따위 냉장고에 오르기 위한 베이스캠프에 불과하다며</div><div style="text-align: center;">몸소 냉장고 등정을 시범 보이셨다.</div><div style="text-align: center;"><br></div><div style="text-align: center;">아아... 히딩크적 공복을 동력삼아 더 큰 성취를 독려하시는 아름다운 모습이고녀.</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><div style="text-align: center;"><img src='./2545702/f0085862_4c499726a1b62.jpg'></div><div style="text-align: center;">어...어이, 졸지 말고 여길 봐야지;;;</div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>

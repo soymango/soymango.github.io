@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/result.css">
+
+        <title>간장의 피서법</title>
+    </head>
+    <body>
+        <section id="wrap">
+            <header>
+                <h1 class="logo-title">
+                    <span class="main"><img src="../../images/logo_egloos.png" width="105" height="34" alt="이글루스"></span>
+                </h1>
+                <div class="user-info">
+                    <strong class="name">간장댁</strong> 님 (<strong class="name">ganzang</strong>)
+                </div>
+            </header>
+            <main>
+                <article class="post-wrap">
+                    <!-- 게시물 정보 : 날짜 -->
+                    <div class="post-info">
+                        <span class="time">2010-07-09 11:01:02</span>
+                    </div>
+                    <!-- 게시물 제목 -->
+                    <h2 class="post-title">간장의 피서법</h2>
+                    <!-- 게시물 본문 -->
+                    <div class="post-body">
+                        <div class="content"><img src='./2530340/f0085862_4c3681b61d909.jpg'><div><div style="text-align: center;">아유, 시원타. (고롱~ 고로롱~)</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><div><div style="text-align: center;"><br></div><img src='./2530340/f0085862_4c3681c1cd5d5.jpg'></div><div><div style="text-align: center;">... 응?</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><img src='./2530340/f0085862_4c368223ba561.jpg'></div><div><div style="text-align: center;">또 찍냐?</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><div style="text-align: center;">요즘 맨날 책상 위에 올라와서 뒹굴거리는 간장.</div><div style="text-align: center;">아무래도 방바닥보다는 시원하겠지.</div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><div style="text-align: center;"><br></div><img src='./2530340/f0085862_4c368233f11fe.jpg'></div><div style="text-align: center;">현관 타일은 냥이들의 돌침대</div></div></div>
+                        <div class="post-footer">
+                            <button class="btn" onclick="button_click();">목록</button>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            function button_click() {
+                if(history.length > 1) {
+                    history.back();
+                } else {
+                    document.location.href = "../../블로그포스트목록.html";
+                }
+            }
+        </script>
+    </body>
+</html>
